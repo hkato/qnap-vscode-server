@@ -3,6 +3,7 @@ services:
     build: .
     image: vscode-server
     container_name: vscode-server
+    hostname: server
     restart: always
     user: "${UID}:${GID}"
     ports:
