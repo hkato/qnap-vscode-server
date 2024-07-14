@@ -45,4 +45,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 USER vscode:vscode
 
 EXPOSE 5555
-ENTRYPOINT ["fixuid", "code", "serve-web", "--accept-server-license-terms", "--without-connection-token", "--host", "0.0.0.0", "--port", "5555"]
+ENTRYPOINT ["fixuid", "code", "serve-web", "--without-connection-token", "--host", "0.0.0.0", "--port", "5555"]
