@@ -7,7 +7,7 @@ services:
     restart: always
     user: "${UID}:${GID}"
     ports:
-      - 5555:5555
+      - 8000:8000
     volumes:
       - $HOME:/home/vscode:rw
       - /var/run/docker.sock:/var/run/docker.sock:rw
