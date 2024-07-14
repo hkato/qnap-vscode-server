@@ -1,5 +1,5 @@
 services:
-  vscode:
+  vscode-server:
     build: .
     image: vscode-server
     container_name: vscode-server
